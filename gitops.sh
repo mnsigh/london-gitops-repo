@@ -46,3 +46,4 @@ fi
 
 # Real run
 $FLEETCTL gitops "${args[@]}"
+
