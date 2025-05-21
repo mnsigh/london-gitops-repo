@@ -11,6 +11,8 @@ agent_options:
   path: ./lib/agent-options.yml
 controls:
 org_settings:
+  org_info:
+    org_name: Some Random Chars
   server_settings:
     server_url: $FLEET_URL
   org_info:
@@ -22,3 +24,7 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
+  webhook_settings:
+    activities_webhook:
+      enable_activites_webhook: true
+      destination_url: https://example.com
