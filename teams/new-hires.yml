@@ -24,6 +24,7 @@ controls:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
     - path: ../lib/set-wallpaper.ps1
+    - path: ../lib/update-dns.sh
   macos_updates:
     deadline: "2025-06-01"
     minimum_version: "15.4.0"
