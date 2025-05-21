@@ -27,6 +27,10 @@ jobs:
       - name: Checkout GitOps repository
         uses: actions/checkout@v4
 
+      - name: Fix bash perms from Windows
+        run: |
+          chmod -R +x ./gitops.sh
+
       - name: Apply latest configuration to Fleet
         uses: ./.github/gitops-action
         with:
