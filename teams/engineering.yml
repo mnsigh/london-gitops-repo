@@ -32,3 +32,5 @@ team_settings:
       host_batch_size: 0
       policy_ids:
 software:
+  packages:
+    - path: ../lib/cloudfare-warp.yml
